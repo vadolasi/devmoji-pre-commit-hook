@@ -1,0 +1,8 @@
+- id: devmoji
+  pass_filenames: false
+  name: devmoji
+  description: run devmoji
+  entry: devmoji --edit
+  language: node
+  additional_dependencies:
+    - "devmoji@2.3.0"
